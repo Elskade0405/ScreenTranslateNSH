@@ -1,0 +1,26 @@
+# --- PHẦN QUAN TRỌNG: CỐ ĐỊNH PHIÊN BẢN (KHÔNG ĐƯỢC ĐỔI) ---
+# PaddlePaddle 2.6.2 là bản ổn định nhất cho Windows hiện tại
+paddlepaddle==2.6.2
+
+# PaddleOCR 2.7.3 tương thích tốt với bản Paddle trên, không bị lỗi paddlex
+paddleocr==2.7.3
+
+# Numpy phải dưới 2.0 để tránh lỗi "ABI version" với OpenCV và Paddle
+numpy<2.0.0
+
+# Protobuf 3.20.x là bắt buộc cho Paddle 2.x (bản mới 4.x sẽ gây lỗi)
+protobuf==3.20.2
+
+# --- CÁC THƯ VIỆN KHÁC ---
+# Giao diện người dùng
+PyQt6
+
+# Xử lý ảnh và Camera
+opencv-python
+Pillow
+
+# Dịch thuật
+deep-translator
+
+# Phím tắt toàn cầu
+keyboard
