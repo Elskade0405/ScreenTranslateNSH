@@ -1,10 +1,8 @@
 # ScreenTrans
-pip install --force-reinstall -r requirements.txt
+ScreenTranslate using PaddleOCR 
+
+Output mostly like google translate so dont expect much 🥀 
+
+Only JP to EN or JP to VIE
 
 
-python main.py to run 
-
-
-no .exe file yet 😭
-
-need wifi to run 🥀
