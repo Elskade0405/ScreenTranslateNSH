@@ -1,0 +1,9 @@
+# Bỏ qua các thư mục build
+build/
+dist/
+*.spec
+
+# Bỏ qua các file nén nặng (để tránh push nhầm)
+*.zip
+*.rar
+*.exe
